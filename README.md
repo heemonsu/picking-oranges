@@ -8,3 +8,5 @@ Resources used:
 2. Detecting touching/overlapping circles : 
   <br>[PyImageSearch - Watershed](http://www.pyimagesearch.com/2015/11/02/watershed-opencv/)
   <br>Stackoverflow: [1](http://stackoverflow.com/questions/26932891/detect-touching-overlapping-circles-ellipses-with-opencv-and-python) [2](http://stackoverflow.com/questions/25667053/find-overlapping-complex-circles-with-opencv)
+3. Perspective Shift :
+  <br>[OpenCV Docs](http://docs.opencv.org/trunk/da/d6e/tutorial_py_geometric_transformations.html)
