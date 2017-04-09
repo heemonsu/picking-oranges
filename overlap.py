@@ -102,10 +102,10 @@ def find_orange(image):
 
 	#ste4 - defining our filters
 	#filter by the color
-	min_red = np.array([13,100,80])
-	max_red = np.array([23,256,256])
+	min_color = np.array([13,100,80])
+	max_color = np.array([23,256,256])
 
-	mask1 = cv2.inRange(image_blur_hsv, min_red, max_red)
+	mask1 = cv2.inRange(image_blur_hsv, min_color, max_color)
 
 	#filter by brightness
 	#min_red2 = np.array([13, 100, 80])
